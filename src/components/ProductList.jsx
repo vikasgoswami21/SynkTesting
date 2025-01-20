@@ -6,6 +6,7 @@ import { setApiData } from '../redux/apiSlice'
 
 
 const ProductList = () => {
+    console.log();
     const dispatch = useDispatch()
     const products = useSelector(state => state.product)
     const apiData = useSelector(state => state.api.apiData)

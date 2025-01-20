@@ -14,7 +14,8 @@ app.get('/user/:id', (req, res) => {
     // Ensure the logged-in user is requesting their own data
     if (parseInt(userId) === req.user.id) {
         res.json(users[userId]);
-    } else {
+    } 
+    else {
         res.status(403).json({ message: 'Access denied' });
     }
 });

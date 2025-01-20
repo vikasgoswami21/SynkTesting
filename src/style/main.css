@@ -724,6 +724,9 @@ nav.main-menu li a {
   border: 0;
   padding: 2px 24px 2px 8px;
 }
+.mew{
+  color:red
+}
 
 .searchbar i {
   position: absolute;

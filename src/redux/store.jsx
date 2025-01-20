@@ -8,7 +8,7 @@ export const store = configureStore({
   reducer: {
     api: apiReducer,
     cart: cartSlice,
-    product: productSlice
+    product: productSlice,
   },
 })
 

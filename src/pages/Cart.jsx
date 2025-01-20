@@ -31,6 +31,7 @@ const Cart = () => {
 							<tbody>
 								{cart.products.map((item)=>{
 									return(
+										//  key={item.id} 
 										<tr className="table-body-row">
 											<td className="product-remove"><a href="#"><i className="far fa-window-close"></i></a></td>
 											<td className="product-image"><img src={item.image} alt="" /></td>
